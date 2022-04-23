@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="musicPlayerContainer">
+    <div class="title">
+        <h1>Music Player</h1>
+       
+    </div>
+
+    <div class="musicPlayer">
+        <div class="imageContainer">
+            <img src="img/one.jpg" alt=""class="image">
+        </div>
+
+        <div class="songInfo">
+            <div>
+                <h2 class="songName">one</h2>
+                <h3 class="ArtistName">oneplay</h3>
+            </div>
+            <div class="duration">
+                
+                <input type="range" min="0" max="100" value="0" id="duration-slider">
+            </div>
+        </div>
+
+        <div class="musicAudio">
+            <audio src="" class="music">
+
+            </audio>
+        </div>
+
+        <div class="love">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+        </div>
+            <div class="controls">
+                <div class="previous"><i class="fa-solid fa-backward"></i></div>
+                <div class="play"><i class="fa-solid fa-play"></i></div>
+                <div class="next"><i class="fa-solid fa-forward"></i></div>
+            </div>
+        <a href="" class="download" download> Download</a>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
